@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+input::placeholder {
+    color: grey;
+}
+
+
+.chatigs {
+
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    width: 70%;
+
+}
+
+.heading_whatsapp {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.whats_icons {
+    background-color: RGB(53, 157, 126);
+    background-size: cover;
+    width: 103%;
+    padding-bottom: 0px;
+}
+
+.plus_ {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+.bg_image_of {
+    height: 100vh;
+    width: 100vw;
+}
+
+.chats_container {
+    background-image: url("https://res.cloudinary.com/dsnjnciud/image/upload/v1695549258/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21_fk3vj9.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg_photo_of_wp {
+    background-image: url("https://res.cloudinary.com/dsnjnciud/image/upload/v1695549258/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21_fk3vj9.png");
+    background-size: cover;
+    height: 150vh;
+    width: 100vw;
+    padding-bottom: 15px;
+}
+
+.user_input {
+    border-width: 0px;
+    border-color: white;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.user_input::placeholder {
+    color: white;
+}
+
+.user_input:focus {
+    outline: none;
+}
+
+.start_chating {
+    position: fixed;
+    bottom: 10px;
+}
+
+.user_input2::placeholder {
+    color: grey;
+}
+
+.user_input2:focus {
+    outline: none;
+}
+
+.user_input2 {
+    border-width: 0px;
+    border-color: white;
+    width: 50%;
+    padding-top: 7px;
+}
+
+.msg_container_right {
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 18px;
+}
+
+.msg_container_left {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 18px;
+}
+
+.send_msgs {
+    background-color: #DCF8C6;
+    padding: 7px;
+    border-radius: 8px;
+
+}
+
+.recived_msgs {
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+
+
+
+.time__ {
+    color: grey;
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.menu-icon {
+    cursor: pointer;
+    position: relative;
+}
+
+
+.menu {
+    position: absolute;
+    top: 50px;
+    padding-left: 10px;
+    right: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+ul {
+    padding-left: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: #ccc;
+}
+
+
+
+
+
+
+.list_of {
+    cursor: pointer;
+    position: relative;
+}
+
+
+.list__ {
+    position: absolute;
+    top: 50px;
+    padding-left: 10px;
+    right: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+ul {
+    padding-left: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.list__ li:hover {
+    background-color: #ccc;
+}
